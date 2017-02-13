@@ -46,4 +46,17 @@
     float: none !important;
     display: block !important;
   }
+
+  nav {
+    .internal-nav {
+      display: none;
+    }
+    .social-media {
+      text-align: center;
+      display: block;
+      position: relative;
+      top: 115%;
+      right: 5%;
+    }
+  }
 }
