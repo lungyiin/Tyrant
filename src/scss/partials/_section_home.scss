@@ -1,8 +1,23 @@
 #home {
-  .lights {
-    float: left;
-    text-align: center;
+  min-height: 400px;
+
+  h2 {
+    font-size: 2em;
   }
+
+  .lights {
+    text-align: center;
+    display: inline-block;
+    width: 40%
+
+  }
+
+  .lights-info {
+    display: inline-block;
+    width: 60%;
+    float: right;
+  }
+
   img {
     width: 50%;
     height: auto;

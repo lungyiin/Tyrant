@@ -12,6 +12,7 @@ document.onreadystatechange = function () {
             }
 
             document.getElementById('contents').classList.add('visible');
+            document.getElementById('loader').style.display = 'none';
         }, 1000);
     }
 };

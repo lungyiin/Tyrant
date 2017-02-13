@@ -24,12 +24,20 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-cart:before {
+  content: "\e93a";
+}
+
 .icon-facebook:before {
   content: "\ea90";
 }
 
 .icon-instagram:before {
   content: "\ea92";
+}
+
+.icon-spotify:before {
+  content: "\ea94";
 }
 
 .icon-twitter:before {
@@ -39,4 +47,3 @@
 .icon-soundcloud:before {
   content: "\eac3";
 }
-
