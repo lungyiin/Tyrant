@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "gulp": "*",
+    "gulp-autoprefixer": "*",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "*",
+    "gulp-typescript": "2.13.6"
+  }
+}

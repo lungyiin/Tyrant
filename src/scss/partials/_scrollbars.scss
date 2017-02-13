@@ -1,0 +1,11 @@
+
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-thumb,
+::-webkit-scrollbar-button,
+::-webkit-scrollbar-corner {
+  background: $tyrant-black;
+}
+
+body {
+  scrollbar-face-color: $tyrant-black;
+}

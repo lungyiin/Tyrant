@@ -1,0 +1,69 @@
+body {
+  background-color: $tyrant-black;
+  font-family: 'Raleway', sans-serif;
+  color: $tyrant-white;
+}
+
+#contents {
+  visibility: hidden;
+
+  &.visible {
+    visibility: visible !important;
+
+    .parallax-window {
+      background: transparent;
+    }
+  }
+}
+
+.parallax-mirror {
+  display: none;
+}
+
+.parallax-window {
+  min-height: 400px;
+  background: $tyrant-black;
+
+  &.hero {
+    min-height: 500px;
+  }
+
+  h1 {
+    line-height: 400px;
+  }
+}
+
+h1 {
+  text-align: center;
+  font-size: 4em;
+  text-transform: uppercase;
+  letter-spacing: .4em;
+  font-weight: 900;
+
+  &.hero {
+    line-height: 500px;
+    font-size: 6em;
+  }
+}
+
+section {
+  .content {
+    padding: .5em;
+  }
+
+}
+
+a {
+  text-decoration: none !important;
+  color: $tyrant-white;
+
+  transition: all 1s;
+
+  &:hover {
+    text-shadow: 0 0 3px black;
+  }
+
+  &:visited {
+    color: $tyrant-white;
+  }
+}

@@ -1,0 +1,43 @@
+@media (max-width: 850px) and (min-width: 551px) {
+  .parallax-window {
+    min-height: 300px;
+
+    &.hero {
+      min-height: 400px;
+    }
+
+    h1 {
+      line-height: 300px;
+    }
+  }
+
+  h1 {
+    &.hero {
+      line-height: 400px;
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  .parallax-window {
+    min-height: 200px;
+
+    &.hero {
+      min-height: 250px;
+    }
+
+    h1 {
+      line-height: 200px;
+      font-size: 2em;
+    }
+  }
+
+  h1 {
+    letter-spacing: .2em;
+
+    &.hero {
+      line-height: 250px;
+      font-size: 3em;
+    }
+  }
+}

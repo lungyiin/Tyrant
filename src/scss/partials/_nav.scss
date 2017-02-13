@@ -1,0 +1,19 @@
+nav {
+  font-size: 1.2em;
+  margin-bottom: -200px;
+  text-align: right;
+
+  ul {
+    display: inline-block;
+    li {
+      display: inline-block;
+      list-style: none;
+
+      margin: auto 10px;
+
+      a:hover {
+        font-size: 1.5em;
+      }
+    }
+  }
+}
